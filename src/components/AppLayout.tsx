@@ -3,13 +3,15 @@ import { useAuth } from '@/contexts/AuthContext';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import AuthModal from '@/components/AuthModal';
-import HomePage from '@/pages/HomePage';
-import ServicesPage from '@/pages/ServicesPage';
-import WorkersPage from '@/pages/WorkersPage';
-import BookingFlow from '@/pages/BookingFlow';
-import CustomerDashboard from '@/pages/CustomerDashboard';
-import WorkerDashboard from '@/pages/WorkerDashboard';
-import AdminDashboard from '@/pages/AdminDashboard';
+import {
+  AdminDashboard,
+  BookingFlow,
+  CustomerDashboard,
+  HomePage,
+  ServicesPage,
+  WorkerDashboard,
+  WorkersPage,
+} from '@/pages/AppPages';
 
 const AppLayout: React.FC = () => {
   const { profile } = useAuth();

@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-white font-semibold mb-4">Services</h4>
             <ul className="space-y-2.5">
-              {['House Cleaning', 'Cooking', 'Laundry', 'Car Washing', 'Yard Cleaning', 'Waste Removal', 'Basic Home Help'].map(s => (
+              {['House Cleaning', 'Cooking', 'Laundry', 'Car Washing', 'Yard Cleaning', 'Waste Removal', 'Basic Home Help', 'Carpentry', 'Welding'].map(s => (
                 <li key={s}>
                   <Link to="/services" className="text-sm text-gray-400 hover:text-white transition">
                     {s}

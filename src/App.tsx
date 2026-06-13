@@ -11,12 +11,14 @@ import { LocationProvider } from "@/contexts/LocationContext";
 import { WhatsAppProvider } from "@/contexts/WhatsAppContext";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
-import PrivacyPolicy from "./pages/PrivacyPolicy";
-import TermsOfService from "./pages/TermsOfService";
-import ContactUs from "./pages/ContactUs";
-import CancellationPolicy from "./pages/CancellationPolicy";
-import FAQ from "./pages/FAQ";
-import SafetyAndSecurity from "./pages/SafetyAndSecurity";
+import {
+  CancellationPolicy,
+  ContactUs,
+  FAQ,
+  PrivacyPolicy,
+  SafetyAndSecurity,
+  TermsOfService,
+} from "./pages/LegalPages";
 
 const queryClient = new QueryClient();
 

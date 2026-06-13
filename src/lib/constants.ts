@@ -7,6 +7,8 @@ export const IMAGES = {
   yard: 'https://d64gsuwffb70l.cloudfront.net/69ae89634411e5e9f9cffb50_1773046394348_95851092.jpg',
   waste: 'https://d64gsuwffb70l.cloudfront.net/69ae89634411e5e9f9cffb50_1773046434984_253c4d25.png',
   homeHelp: 'https://d64gsuwffb70l.cloudfront.net/69ae89634411e5e9f9cffb50_1773046493676_cf0b4eff.jpg',
+  carpentry: '/carpentry.png',
+  welding: '/welding.png',
   workers: [
     'https://d64gsuwffb70l.cloudfront.net/69ae89634411e5e9f9cffb50_1773046460719_114da1c7.jpg',
     'https://d64gsuwffb70l.cloudfront.net/69ae89634411e5e9f9cffb50_1773046471728_8382ba22.png',
@@ -114,6 +116,38 @@ export const MOCK_WORKERS = [
     hourlyRate: 125,
     available: true,
   },
+  {
+    id: '7',
+    name: 'Themba Ngcobo',
+    photo: IMAGES.carpentry,
+    services: ['Carpentry', 'Basic Home Help'],
+    area: 'Johannesburg, Roodepoort',
+    rating: 4.9,
+    reviews: 73,
+    experience: 9,
+    verified: true,
+    policeClear: true,
+    cookingCert: false,
+    bio: 'Master carpenter specialising in furniture repairs, custom shelving, door fitting, and fine woodwork. Quality craftsmanship guaranteed.',
+    hourlyRate: 200,
+    available: true,
+  },
+  {
+    id: '8',
+    name: 'Pieter van Wyk',
+    photo: IMAGES.welding,
+    services: ['Welding'],
+    area: 'Pretoria, Centurion',
+    rating: 4.8,
+    reviews: 61,
+    experience: 11,
+    verified: true,
+    policeClear: true,
+    cookingCert: false,
+    bio: 'Certified welder with over a decade of experience in gates, burglar bars, railings, and structural metal fabrication and repairs.',
+    hourlyRate: 230,
+    available: true,
+  },
 ];
 
 export const TESTIMONIALS = [
@@ -186,6 +220,8 @@ export const SERVICE_CATEGORIES = [
   { name: 'Yard Cleaning', icon: IMAGES.yard, price: 'R200 - R500', duration: '3 hours', desc: 'Garden maintenance, lawn mowing, hedge trimming, and yard tidying.' },
   { name: 'Waste Removal', icon: IMAGES.waste, price: 'R300 - R700', duration: '2 hours', desc: 'Responsible removal and disposal of household waste and refuse.' },
   { name: 'Basic Home Help', icon: IMAGES.homeHelp, price: 'R180 - R400', duration: '3 hours', desc: 'General household assistance including errands and organising.' },
+  { name: 'Carpentry', icon: IMAGES.carpentry, price: 'R350 - R1200', duration: '4 hours', desc: 'Skilled carpenters for furniture repairs, fittings, doors, shelving, and custom woodwork.' },
+  { name: 'Welding', icon: IMAGES.welding, price: 'R400 - R1500', duration: '4 hours', desc: 'Professional welders for gates, burglar bars, railings, and metal fabrication and repairs.' },
 ];
 
 export const SOUTH_AFRICAN_CITIES = [
